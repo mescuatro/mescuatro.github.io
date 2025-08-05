@@ -1,0 +1,86 @@
+body {
+    height: 100vh;
+    background-image: url(bg.jpg);
+    display: grid;
+    margin: 0;
+    font-family: 'Poppins';
+}
+
+.container{
+     text-align: center;
+     padding: 8em 0;
+     height: 100vh;
+     margin: 0;
+}
+
+.container h1 {
+    font-size: 3em;
+    color: antiquewhite;
+}
+
+.container h1 + p {
+    font-size: 1.5em;
+    color: antiquewhite;
+}
+
+
+svg {
+    position: absolute;
+    z-index: -1;
+}
+
+
+.popup{
+    position: fixed;
+     top: 400px;
+     left: 10%;
+     transform: translateX(-10%);
+     text-align: center;
+     padding: 2em;
+     background-color: antiquewhite;
+     border-radius: 10px;
+     width: 500px;
+     z-index: 2;
+     visibility: hidden;
+     color: black;
+}
+
+.open-popup{
+    visibility: visible;
+}
+
+#intro {
+   text-align: left;
+   margin-left: 300px;        /*para mover el botón y la estrella*/
+   margin-top: 120px;
+}
+
+.btn {
+     width: 100px;
+     background: none;
+     border: none;
+     padding: 0;             /*el botón y para que la estrella no tenga fondo*/
+     cursor: pointer;
+     display: inline-block;
+     color: antiquewhite;
+}
+
+.btn img{
+     width: 100px;
+}
+
+.banner{
+     margin: 2em auto;
+     margin-bottom: 3em;
+     text-align: center;
+     padding: 2em;
+     background-color: antiquewhite;
+     border-radius: 10px;
+     width: 500px;
+     z-index: 1;
+}
+
+#pie {
+    color: antiquewhite;
+    text-align: center;
+}
