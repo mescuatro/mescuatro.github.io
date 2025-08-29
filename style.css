@@ -14,7 +14,7 @@ body {
 
 .imgArriba {
   position: absolute;
-  top: 0;
+  top: 3em;
   right: 0;
   height: 100%;
   display: flex;
@@ -107,7 +107,7 @@ body {
 }
 
 .logo {
-    width: 10em;
+    width: 35em;
     margin-bottom: 3em;
 }
 
@@ -184,6 +184,11 @@ body {
 
     #bottom {
         margin-top: 7em;
+    }
+
+    .logo {
+    width: 25em;
+    margin-bottom: 3em;
     }
 
 }
