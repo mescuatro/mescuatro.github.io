@@ -9,7 +9,10 @@
 <body>
    
 	<div class="imgArriba">
-		<img src="imgs/bgMoonAndClouds.png" alt="Overlay">
+		<picture>
+        <source media="(max-width: 600px)" srcset="imgs\bgMoonAndClouds2.png">
+        <img src="imgs\bgMoonAndClouds.png" alt="Overlay">
+        </picture>
 	</div>
     <div class="container">
      <h1>¡Hola! Soy Abril Romero,</h1>
@@ -30,6 +33,7 @@
       </div>
     </div>
     
+    <div id="bottom">
     <!--Banner con links-->
     <div class="banner">
         <h2>Páginas web hechas por mí 👇🏻</h2>
@@ -48,9 +52,10 @@
 
     <div id="pie">
         <h3>¡Y más por venir!</h3>
-        <img src="imgs\logo2.png" alt="Ilustración de una banana" class="imagen"></>
+        <img src="imgs\logo2.png" alt="Ilustración de una banana" class="logo"></>
     </div>
-
+    </div>
+    
     <script>
         let popup = document.getElementById("popup");
         function openPopup(){
