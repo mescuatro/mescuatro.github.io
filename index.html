@@ -4,7 +4,13 @@
     <meta charset="UTF-8" />
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mi experiencia</title>
+    <link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css"
+    />
     <link href="style.css" rel="stylesheet" type="text/css">
+    <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+    <script src="portfolio.js"></script>
 </head>
 <body>
    
@@ -34,21 +40,39 @@
     </div>
     
     <div id="bottom">
-    <!--Banner con links-->
-    <div class="banner">
-        <h2>Páginas web hechas por mí 👇🏻</h2>
-        <p><a href="seleccion.html">Selección de helados 🍨</a></p>
-        <p><a href="formulario.html">Formulario 📝</a></p>
-        <p><a href="CV.html">Curriculum Vitae 🛠️</a></p>
+    <div class="carousel">
+
+    <h2>Páginas web hechas por mí 👇🏻</h2>
+
+    <div class="swiper">
+    <div class="swiper-wrapper">
+    <div class="swiper-slide" onclick="location.href='page1.html'">Página 1</div>
+    <div class="swiper-slide" onclick="location.href='page2.html'">Página 2</div>
+    <div class="swiper-slide" onclick="location.href='page3.html'">Página 3</div>
+    <!-- Slides -->
     </div>
 
-	 <div class="banner">
-        <h2>Páginas web en las que colaboré 👇🏻</h2>
-        <p><a href="">Frutas 🍇</a></p>
-        <p><a href="">Perros 🐕</a></p>
-        <p><a href="">E-Commerce 🛒</a></p>
+    <!-- Botones -->
+    <div class="swiper-button-next"></div>
+    <div class="swiper-button-prev"></div>
     </div>
 
+    <h2>Páginas web en las que colaboré 👇🏻</h2>
+
+    <div class="swiper">
+    <div class="swiper-wrapper">
+    <div class="swiper-slide" onclick="location.href='https://guzman-dev.github.io/proyecto-e-commerce/login.html'">Página 1</div>
+    <div class="swiper-slide" onclick="location.href='page2.html'">Página 2</div>
+    <div class="swiper-slide" onclick="location.href='page3.html'">Página 3</div>
+    <!-- Slides -->
+    </div>
+
+    <!-- Botones -->
+    <div class="swiper-button-next"></div>
+    <div class="swiper-button-prev"></div>
+    </div>
+
+    </div>
 
     <div id="pie">
         <h3>¡Y más por venir!</h3>
